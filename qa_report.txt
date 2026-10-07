@@ -1,0 +1,18 @@
+LEAD CLEANING QA REPORT
+============================================================
+Input count:            26
+Output count:           15
+------------------------------------------------------------
+Exclusions by reason:
+  duplicate_email:       1
+  employees_above_10000: 1
+  invalid_email_format:  2
+  missing_email:         3
+  suppressed_domain:     3
+  title_contains_owner:  1
+------------------------------------------------------------
+Total excluded:         11
+------------------------------------------------------------
+Reconciliation:         26 = 15 + 11  PASS
+Output file:            send_ready.csv
+============================================================
