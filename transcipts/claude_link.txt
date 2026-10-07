@@ -1,0 +1,9 @@
+Model used: Claude Haiku 4.5 (small tier, extended reasoning mode)
+Selected per the brief's instruction to use the middle or smallest model.
+
+Session link: https://claude.ai/share/63026d4a-b8a5-40af-a00c-9bf5a47c6cb6
+
+Used for: Part 2 - lead pipeline reconciliation gate
+Session contents: initial script prompt, followed by four targeted fix
+prompts after running the script and hitting failures (malformed row
+crash, QA report ordering, fieldnames capture).
